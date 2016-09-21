@@ -1,0 +1,63 @@
+
+
+#include<stdio.h>
+
+int main(){
+	int a,b,total;
+	printf("Ingresar el primer numero: ");
+	scanf("%i",&a);
+	printf("Ingresar el segundo numero: ");
+	scanf("%i",&b);
+	if(a<0 || b<0){
+		printf("El numero no puede ser ingresado, solo numeros negativos");
+	}
+	else{
+		total=(a+b);
+		printf("El resultado es: %i", total);
+	}
+	return 0;
+	
+}
+
+
+---------------------------------------------------------------------------------------------
+#include<stdio.h>
+
+int main(){
+	int a;
+	printf("Ingresar el numero,");
+	scanf("%i",&a);
+	if(a%2==0){
+		printf("El numero es par");
+	}else{
+		printf("El numero es impar");
+	}
+	return 0;
+	
+}
+
+
+
+-------------------------------------------------------------------------------------------------
+
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+	int a,b;
+	printf("Ingresar el primer numero: ");
+	scanf("%i",&a);
+	printf("Ingresar el segundo numero: ");
+	scanf("%i",&b);
+	if(a>b){
+		printf("Es mayor: %i",a);
+	}
+	else{
+		printf("Es menor: %i",a);
+	}
+	return 0;
+	
+}
+
+---------------------------------------------------------------------------------------------------------
